@@ -19,18 +19,3 @@
         .skills__item span {
           margin: 0 0 15px;
           font-size: 1.375rem; } }
-
-.level__item {
-  float: left;
-  height: 20px;
-  width: 20px;
-  margin-left: 9px;
-  background-color: #9c9a9a;
-  border-radius: 10px; }
-  .level__item--dark {
-    background-color: #424242; }
-  @media screen and (max-width: 420px) {
-    .level__item {
-      height: 15px;
-      width: 15px;
-      margin-left: 3px; } }

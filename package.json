@@ -1,6 +1,6 @@
 {
-  "name": "myapp",
-  "homepage": "http://aleksandrlepin.github.io/myapp",
+  "name": "easy-sketch.create-react-app",
+  "homepage": "http://aleksandrlepin.github.io/easy-sketch-cra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
