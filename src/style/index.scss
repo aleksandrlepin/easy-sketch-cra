@@ -1,0 +1,68 @@
+@import "reset";
+@import "var";
+@import 'fonts';
+@import 'func';
+@import 'var';
+
+html {
+    min-width: 320px;
+    font: 400 rem(16) 'OpenSans', sans-serif;
+    color: $black;
+    box-sizing: border-box;
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: rem(30);
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 31px 61px 61px;
+    border-bottom: solid 1px $light-gray2;
+
+    @media screen and (max-width: 820px) {
+        padding: 31px 15px 61px;
+    }
+}
+
+.btn-holder {
+    text-align: center;
+}
+
+.logo {
+    margin-left: 60px;
+    font-size: rem(26);
+    line-height: rem(28);
+
+    @media screen and (max-width: 960px) {
+        margin-left: 0;
+    }
+
+    &--bottom {
+        font-size: rem(49);
+
+        @media screen and (max-width: 620px) {
+            font-size: rem(30);
+        }
+    }
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
