@@ -1,26 +1,7 @@
 import React, {Component} from 'react';
-import data from './data.js';
 import './Skills.css';
-
-class LevelDiv extends React.Component {
-    render () {
-        let levelDiv = [];
-        for (let j = 0; j < 11; j++) {
-            if (j <= data[this.props.level].level) {
-                levelDiv.push(
-                    <div className="level__item level__item--dark"></div>
-                );
-            } else {
-                levelDiv.push(
-                    <div className="level__item"></div>
-                );
-            }
-        }
-        return (
-            <div className="level">{levelDiv}</div>
-        );
-    }
-}
+import data from '../data/data.js';
+import Level from './Level/Level.js';
 
 class Skills extends React.Component {
     render () {
@@ -30,7 +11,7 @@ class Skills extends React.Component {
                 <li className="skills__item">
                     <span>{data[i].name}</span>
                     <div className="level">
-                        <LevelDiv level={i} />
+                        <Level level={i} />
                     </div>
                 </li>
             );
