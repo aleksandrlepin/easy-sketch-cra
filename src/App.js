@@ -6,6 +6,7 @@ import About from './About/About.js';
 import Skills from './Skills/Skills.js';
 import Contacts from './Contacts/Contacts.js';
 import Footer from './Footer/Footer.js';
+import data from './data/data.js';
 
 class App extends Component {
     render() {
@@ -13,7 +14,7 @@ class App extends Component {
             <div className='wrapper'>
                 <Header />
                 <About />
-                <Skills />
+                <Skills data={data} />
                 <Contacts />
                 <Footer />
             </div>
