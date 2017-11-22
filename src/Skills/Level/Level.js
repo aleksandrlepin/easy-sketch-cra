@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
 import './Level.css';
-import data from '../../data/data.js';
 
 class Level extends React.Component {
     render () {
+        console.log('level', this.props);
+
         let level = [];
         for (let j = 0; j < 11; j++) {
-            if (j <= data[this.props.level].level) {
+            if (j <= this.props.data.level) {
                 level.push(
-                    <div className="level__item level__item--dark"></div>
+                    <div className="level__item level__item--dark" key={j}></div>
                 );
             } else {
                 level.push(
-                    <div className="level__item"></div>
+                    <div className="level__item" key={j}></div>
                 );
             }
         }
