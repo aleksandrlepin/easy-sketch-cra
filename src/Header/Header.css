@@ -1,7 +1,7 @@
 .header {
   margin-bottom: 23px;
   padding: 0 61px;
-  background: url("../images/bg.jpg") no-repeat center;
+  background: url("./img/bg.jpg") no-repeat center;
   background-size: cover;
   font-size: 1.125rem;
   color: #fff;

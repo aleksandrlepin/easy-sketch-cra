@@ -1,0 +1,20 @@
+@import '../../style/var';
+@import '../../style/func';
+
+.logo {
+    margin-left: 60px;
+    font-size: rem(26);
+    line-height: rem(28);
+
+    @media screen and (max-width: 960px) {
+        margin-left: 0;
+    }
+
+    &--bottom {
+        font-size: rem(49);
+
+        @media screen and (max-width: 620px) {
+            font-size: rem(30);
+        }
+    }
+}

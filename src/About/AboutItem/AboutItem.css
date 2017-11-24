@@ -1,0 +1,18 @@
+.about__goals {
+  max-width: 420px;
+  padding-right: 112px;
+  text-align: right; }
+  @media screen and (max-width: 820px) {
+    .about__goals {
+      margin-bottom: 30px;
+      padding: 180px 0 0;
+      text-align: center; } }
+
+.about__dreams {
+  max-width: 420px;
+  padding-left: 102px;
+  text-align: left; }
+  @media screen and (max-width: 820px) {
+    .about__dreams {
+      padding: 0;
+      text-align: center; } }

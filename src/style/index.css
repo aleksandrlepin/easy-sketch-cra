@@ -165,19 +165,6 @@ h2 {
 .btn-holder {
   text-align: center; }
 
-.logo {
-  margin-left: 60px;
-  font-size: 1.625rem;
-  line-height: 1.75rem; }
-  @media screen and (max-width: 960px) {
-    .logo {
-      margin-left: 0; } }
-  .logo--bottom {
-    font-size: 3.0625rem; }
-    @media screen and (max-width: 620px) {
-      .logo--bottom {
-        font-size: 1.875rem; } }
-
 .clearfix::after {
   content: '';
   display: block;

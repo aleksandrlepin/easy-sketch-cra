@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     padding-top: 28px;
-    background: url('../images/avatar.png') no-repeat 49.5% 55%;
+    background: url('./img/avatar.png') no-repeat 49.5% 55%;
 
     @media screen and (max-width: 820px) {
         flex-direction: column;
@@ -21,28 +21,5 @@
 
     p {
         line-height: rem(18);
-    }
-
-    &__goals {
-        max-width: 420px;
-        padding-right: 112px;
-        text-align: right;
-
-        @media screen and (max-width: 820px) {
-            margin-bottom: 30px;
-            padding: 180px 0 0;
-            text-align: center;
-        }
-    }
-
-    &__dreams {
-        max-width: 420px;
-        padding-left: 102px;
-        text-align: left;
-
-        @media screen and (max-width: 820px) {
-            padding: 0;
-            text-align: center;
-        }
     }
 }

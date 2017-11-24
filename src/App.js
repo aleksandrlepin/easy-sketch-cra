@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.css';
 
-import Header from './Header/Header.js';
-import About from './About/About.js';
-import Skills from './Skills/Skills.js';
-import Contacts from './Contacts/Contacts.js';
-import Footer from './Footer/Footer.js';
-import data from './data/data.js';
+import data from './data/data';
+
+import Header from './Header/Header';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Contacts from './Contacts/Contacts';
+import Footer from './Footer/Footer';
 
 class App extends Component {
     render() {
