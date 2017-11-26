@@ -1,0 +1,35 @@
+@import '../../style/var';
+@import '../../style/func';
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 570px;
+    padding: 142px 0 150px;
+
+    @media screen and (max-width: 640px) {
+        min-height: 270px;
+        padding: 100px 0;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        font-size: rem(60);
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 640px) {
+            font-size: rem(45);
+        }
+    }
+
+    p {
+        font-size: rem(35);
+        text-transform: uppercase;
+
+        @media screen and (max-width: 640px) {
+            font-size: rem(20);
+        }
+    }
+}

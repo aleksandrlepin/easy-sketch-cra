@@ -1,0 +1,24 @@
+.caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 570px;
+  padding: 142px 0 150px; }
+  @media screen and (max-width: 640px) {
+    .caption {
+      min-height: 270px;
+      padding: 100px 0; } }
+  .caption h1 {
+    margin-bottom: 30px;
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+    @media screen and (max-width: 640px) {
+      .caption h1 {
+        font-size: 2.8125rem; } }
+  .caption p {
+    font-size: 2.1875rem;
+    text-transform: uppercase; }
+    @media screen and (max-width: 640px) {
+      .caption p {
+        font-size: 1.25rem; } }
