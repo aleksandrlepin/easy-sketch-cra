@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .menu li {
+    margin-left: 8px; }
+    .menu li:first-child {
+      margin-left: 0; }
+  .menu__item {
+    display: block;
+    padding: 10px 13px;
+    border-bottom: solid 2px transparent; }
+    @media screen and (max-width: 640px) {
+      .menu__item {
+        padding: 10px 5px; } }
+    .menu__item--active, .menu__item:hover {
+      border-bottom: solid 2px #fff; }
